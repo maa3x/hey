@@ -18,6 +18,8 @@ import (
 	"testing"
 )
 
+// comment
+
 func TestParseValidHeaderFlag(t *testing.T) {
 	match, err := parseInputWithRegexp("X-Something: !Y10K:;(He@poverflow?)", headerRegexp)
 	if err != nil {
