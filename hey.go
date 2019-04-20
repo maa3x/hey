@@ -64,7 +64,7 @@ var (
 	disableRedirects   = flag.Bool("disable-redirects", false, "")
 	proxyAddr          = flag.String("x", "", "")
 )
-
+// My comment
 var usage = `Usage: hey [options...] <url>
 
 Options:
